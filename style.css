@@ -5,6 +5,10 @@ body {
     position: relative;
 }
 .header{
-    font-family: 'Alamendra', serif;
-    font-size: 2rem;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sub, h4{
+    font-weight: normal;
 }

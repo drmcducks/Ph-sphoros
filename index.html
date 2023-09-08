@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O Phōsphorus</title>
+    <title>O Phōsphoros</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Almendra&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -13,22 +13,19 @@
 <body>
     <div class="wrap">
         <div class="header">
-            <!---small illustration of a sun-rise in vintage style here-->
-            <h1 class="title" onclick="window.location='index.html'">O Phōsphorus</h1>
+            <!--small illustration of a sun-rise in vintage style here-->
+           <!--<img src="https://i.imgur.com/3aFEJhY.png" width="460px">-->
+           <img src="https://i.imgur.com/dTfgOFL.png" width="80%">
         </div>
-        <div class="subhead">
-            <p id="sub"></p>
-            <script>
-                var date = new Date();
-                var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
-                document.getElementById("sub").innerHTML = current_date;
-            </script>
+        <div class="subhead"><!--small section for today's date and weather forecast-->
+            <h4 id="sub"></h4>
+            <script src="date.js"></script> 
         </div>
-        <div class="main-feed">
+        <div class="main-feed"><!--section of news feed-->
         </div>
-        <div class="left-side">
+        <div class="left-side"><!--section of fake ads and horoscope reading-->
         </div>
     </div>
-    <footer>© 2023 Made with ☕by<a href="itskayandrew.w3spaces.com"> Kuang Andrew</a> </footer>
+    <footer>© 2023 Made with ☕ by<a href="itskayandrew.w3spaces.com"> Kuang Andrew</a> </footer>
 </body>
 </html>
