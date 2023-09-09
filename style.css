@@ -4,11 +4,22 @@ body {
     background-clip: inherit;
     position: relative;
 }
+
 .header{
     padding-top: 20px;
     text-align: center;
 }
 
-.sub, h4{
+.sub, h3{
     font-weight: normal;
+}
+
+.wrap{
+    width: 95%;
+    margin: auto;
+}
+
+footer{
+    margin-top: 3%;
+    text-align: center;
 }
